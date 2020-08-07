@@ -100,13 +100,16 @@ Trong vd trên object có tên là mydog properties là weight, name, age, metho
 ```
 
 #### ASYNC CODE & PROMISES
+
 ##### ASYNC CODE
+
 - JavaScript là ngôn ngữ đơn luồng (single threaded) đồng bộ (synchronous, nhờ vào môi trường browser và nodejs, JavaScript có thể chạy được bất đồng bộ (asynchronous), đa luồng (mutiple threaded).
 - Synchronous có nghĩa là xử lý đồng bộ, chương trình sẽ chạy theo từng bước và chỉ khi nào bước 1 thực hiện xong thì mới nhảy sang bước 2, khi nào chương trình này chạy xong mới nhảy qua chương trình khác.
 - Ngược lại với Synchronous thì Asynchronous là xử lý bất động bộ, nghĩa là chương trình có thể nhảy đi bỏ qua một bước nào đó.
+
 ```sh
 Ví dụ về synchronous:
-const fs = require('fs'); 
+const fs = require('fs');
 const text = fs.readFileSync('./song-1.txt', {encoding: 'utf8'});
 console.log(text);
 fs.writeFileSync('./song-2.txt', text);
@@ -117,9 +120,12 @@ fs.readFile('./song-1.txt, {encoding: 'utf8}, (err, data) => {
   fs.writeFile('./song-2.txt', data, err => console.log(err))
 })
 ```
+
 ##### PROMISES
+
 - Callback có rất nhiều nhược điểm. Khi ta có nhiều thao tác bất đồng bộ, các callback phải chờ nhau thực hiện, thời gian để hoàn thành sẽ bị kéo dài hơn. Ngoài ra, việc viết các callback lồng nhau cũng làm cho mã nguồn của ta rắc rối và khó bảo trì (callback-hell).
 - Vì thế, trong phiên bản ES6 , JavaScript đã được bổ xung thêm ( .then() ) Promise. Nó là một thay thế tuyệt vời cho callbacks và hầu hết cộng đồng nhanh chóng chuyển sang sử dụng nó để thay thế cho callbacks. Code mới của chúng ta gần giống với code cũ, kết quả là trông dễ theo dõi và bảo trì hơn.
+
 ```sh
 Ví dụ trên sử dụng promise:
 const = readFilePromise(path) {
@@ -153,7 +159,9 @@ readFilePromise('song1.txt')
   .then(result => console.log(result))
   .catch(err => console.log(err))
 ```
+
 #### EXERCISES
+
 ```sh
 const convertToRoman = (num) => {
   const roman = {
