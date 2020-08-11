@@ -153,6 +153,17 @@ Ex: Một người có nhiều nhiệm vụ khác nhau, một nhiệm vụ có t
                                     }
 ```
 
+### KHÓ KHĂN VÀ CÁCH KHẮC PHỤC
+
+#### KHÓ KHĂN
+
+- Kiến thức nhiều, ít có tài liệu Tiếng Việt.
+- Chỉ mới áp dụng ở mức lí thuyết, chưa áp dụng vào project
+
+#### CÁCH KHẮC PHỤC
+
+- Luyện tập nhiều, giải vài tập trên mạng
+
 ### LINK THAM KHẢO
 
 [RELATIONSHIPS - 1](https://www.youtube.com/watch?v=leNCfU5SYR8)
