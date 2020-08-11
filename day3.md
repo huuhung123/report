@@ -27,7 +27,7 @@ db.shopping.insertMany([
     name: 'Laptop',
     customer: {
         name: 'Hoa',
-        email: 'hoa.vo1405@hcmut.edu.vn'
+        email: 'hoa.vo1405@hcmut.edu.vn'****
         }
     }
 ])
