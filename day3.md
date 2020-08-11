@@ -125,3 +125,10 @@ db.shopping.aggregate([
 - Thao tác với CLI là chủ yếu.
 #### CÁCH KHẮC PHỤC
 - Luyện tập nhiều, giải vài tập trên mạng
+
+### LINK THAM KHẢO
+[QUEY](https://www.tutorialspoint.com/mongodb/index.htm)
+
+[AGGRERATION - 1](https://studio3t.com/knowledge-base/articles/mongodb-aggregation-framework/)
+
+[AGGRERATION - 2](https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI&index=1)
